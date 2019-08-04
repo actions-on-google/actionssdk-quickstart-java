@@ -1,0 +1,31 @@
+{
+  "conversationToken": "{\"data\":{\"firstNum\":23}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Got it, the first number is 23."
+              }
+            },
+            {
+              "simpleResponse": {
+                "textToSpeech": "What's the second number?"
+              }
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {},
+          "intent": "actions.intent.TEXT"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{\"sum\":68.0}}"
+}

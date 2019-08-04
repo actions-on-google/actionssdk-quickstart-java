@@ -1,0 +1,67 @@
+{
+  "user": {
+    "locale": "en-US",
+    "lastSeen": "2019-08-04T20:04:27Z",
+    "userStorage": "{\"data\":{\"sum\":68.0}}",
+    "userVerificationStatus": "VERIFIED"
+  },
+  "conversation": {
+    "conversationId": "ABwppHFZKiyA6N9lrSrrVudSNjbfrP3MlMmvqCHCtyLQcHLAGi4YCokElNV5-ddqyzCzCQAHGd6-AecW9F3EDbaEtH88RXFWnA",
+    "type": "ACTIVE",
+    "conversationToken": "{\"data\":{\"firstNum\":23}}"
+  },
+  "inputs": [
+    {
+      "intent": "actions.intent.TEXT",
+      "rawInputs": [
+        {
+          "inputType": "KEYBOARD",
+          "query": "453"
+        }
+      ],
+      "arguments": [
+        {
+          "name": "text",
+          "rawText": "453",
+          "textValue": "453"
+        }
+      ]
+    }
+  ],
+  "surface": {
+    "capabilities": [
+      {
+        "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+      },
+      {
+        "name": "actions.capability.AUDIO_OUTPUT"
+      },
+      {
+        "name": "actions.capability.WEB_BROWSER"
+      },
+      {
+        "name": "actions.capability.SCREEN_OUTPUT"
+      },
+      {
+        "name": "actions.capability.ACCOUNT_LINKING"
+      }
+    ]
+  },
+  "isInSandbox": true,
+  "availableSurfaces": [
+    {
+      "capabilities": [
+        {
+          "name": "actions.capability.AUDIO_OUTPUT"
+        },
+        {
+          "name": "actions.capability.SCREEN_OUTPUT"
+        },
+        {
+          "name": "actions.capability.WEB_BROWSER"
+        }
+      ]
+    }
+  ],
+  "requestType": "SIMULATOR"
+}

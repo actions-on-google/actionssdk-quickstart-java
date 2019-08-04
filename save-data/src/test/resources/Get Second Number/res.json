@@ -1,0 +1,31 @@
+{
+  "conversationToken": "{\"data\":{\"firstNum\":23.0,\"sum\":476}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Got it, the second number is 453. The sum of both numbers is 476"
+              }
+            },
+            {
+              "simpleResponse": {
+                "textToSpeech": "Should I remember that for next time?"
+              }
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {},
+          "intent": "actions.intent.TEXT"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{\"sum\":68.0}}"
+}

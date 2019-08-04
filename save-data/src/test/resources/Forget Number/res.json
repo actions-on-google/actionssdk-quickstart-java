@@ -1,0 +1,31 @@
+{
+  "conversationToken": "{\"data\":{}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Alright, I forgot your last result."
+              }
+            },
+            {
+              "simpleResponse": {
+                "textToSpeech": "Let's add two new numbers. What is the first number?"
+              }
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {},
+          "intent": "actions.intent.TEXT"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}
