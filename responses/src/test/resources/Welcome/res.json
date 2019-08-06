@@ -1,0 +1,57 @@
+{
+  "conversationToken": "{\"data\":{}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Hi! I can show you different types of responses."
+              }
+            },
+            {
+              "simpleResponse": {
+                "textToSpeech": "Which would you like to see?"
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "Basic Card"
+            },
+            {
+              "title": "List"
+            },
+            {
+              "title": "Carousel"
+            },
+            {
+              "title": "Media Response"
+            },
+            {
+              "title": "Suggestion Chips"
+            },
+            {
+              "title": "Browsing Carousel"
+            },
+            {
+              "title": "Simple Response"
+            },
+            {
+              "title": "SSML"
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {},
+          "intent": "actions.intent.TEXT"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}

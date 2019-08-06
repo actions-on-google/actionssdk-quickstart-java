@@ -1,0 +1,69 @@
+{
+  "conversationToken": "{\"data\":{}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "This is a simple table example."
+              }
+            },
+            {
+              "tableCard": {
+                "columnProperties": [
+                  {
+                    "header": "header 1"
+                  },
+                  {
+                    "header": "header 2"
+                  },
+                  {
+                    "header": "header 3"
+                  }
+                ],
+                "rows": [
+                  {
+                    "cells": [
+                      {
+                        "text": "row 1 item 1"
+                      },
+                      {
+                        "text": "row 1 item 2"
+                      },
+                      {
+                        "text": "row 1 item 3"
+                      }
+                    ]
+                  },
+                  {
+                    "cells": [
+                      {
+                        "text": "row 2 item 1"
+                      },
+                      {
+                        "text": "row 2 item 2"
+                      },
+                      {
+                        "text": "row 2 item 3"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {},
+          "intent": "actions.intent.TEXT"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}
