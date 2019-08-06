@@ -1,0 +1,23 @@
+{
+  "conversationToken": "{\"data\":{}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "inputValueData": {
+            "intent": "Daily Lowest Temperature",
+            "triggerContext": {
+              "timeContext": {
+                "frequency": "DAILY"
+              }
+            },
+            "@type": "type.googleapis.com/google.actions.v2.RegisterUpdateValueSpec"
+          },
+          "intent": "actions.intent.REGISTER_UPDATE"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}

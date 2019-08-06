@@ -1,0 +1,67 @@
+{
+  "user": {
+    "locale": "en-US",
+    "lastSeen": "2019-08-06T21:30:53Z",
+    "userStorage": "{\"data\":{}}",
+    "userVerificationStatus": "VERIFIED"
+  },
+  "conversation": {
+    "conversationId": "ABwppHHB-uujiOLSbS_9oVAHWngPcgOddevYBomz_d5_QGlhXm6qtkyiHs2aAWQM2onQfZ_-YUEzVJOAoQFHBH8Zd0TvIG5L0A",
+    "type": "ACTIVE",
+    "conversationToken": "{\"data\":{}}"
+  },
+  "inputs": [
+    {
+      "intent": "actions.intent.TEXT",
+      "rawInputs": [
+        {
+          "inputType": "TOUCH",
+          "query": "Send daily updates"
+        }
+      ],
+      "arguments": [
+        {
+          "name": "text",
+          "rawText": "Send daily updates",
+          "textValue": "Send daily updates"
+        }
+      ]
+    }
+  ],
+  "surface": {
+    "capabilities": [
+      {
+        "name": "actions.capability.AUDIO_OUTPUT"
+      },
+      {
+        "name": "actions.capability.SCREEN_OUTPUT"
+      },
+      {
+        "name": "actions.capability.WEB_BROWSER"
+      },
+      {
+        "name": "actions.capability.ACCOUNT_LINKING"
+      },
+      {
+        "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+      }
+    ]
+  },
+  "isInSandbox": true,
+  "availableSurfaces": [
+    {
+      "capabilities": [
+        {
+          "name": "actions.capability.AUDIO_OUTPUT"
+        },
+        {
+          "name": "actions.capability.SCREEN_OUTPUT"
+        },
+        {
+          "name": "actions.capability.WEB_BROWSER"
+        }
+      ]
+    }
+  ],
+  "requestType": "SIMULATOR"
+}

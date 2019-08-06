@@ -1,0 +1,16 @@
+{
+  "conversationToken": "{\"data\":{}}",
+  "expectUserResponse": false,
+  "finalResponse": {
+    "richResponse": {
+      "items": [
+        {
+          "simpleResponse": {
+            "textToSpeech": "Ok, I'll start giving you daily updates."
+          }
+        }
+      ]
+    }
+  },
+  "userStorage": "{\"data\":{}}"
+}
