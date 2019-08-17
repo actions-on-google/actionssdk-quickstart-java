@@ -1,0 +1,76 @@
+{
+  "user": {
+    "locale": "en-US",
+    "userVerificationStatus": "VERIFIED"
+  },
+  "conversation": {
+    "conversationId": "ABwppHF23f99p33NDkUClq7BQPFlQcT7qfYVpecNP5oKnxWxvY4S_f8rzfX11W085sU6mphVO3RRqVbloEReThYbjg",
+    "type": "NEW"
+  },
+  "inputs": [
+    {
+      "intent": "actions.intent.DATETIME",
+      "rawInputs": [
+        {
+          "inputType": "KEYBOARD",
+          "query": "430pm"
+        }
+      ],
+      "arguments": [
+        {
+          "name": "DATETIME",
+          "datetimeValue": {
+            "date": {
+              "year": 2019,
+              "month": 8,
+              "day": 18
+            },
+            "time": {
+              "hours": 16,
+              "minutes": 30
+            }
+          }
+        },
+        {
+          "name": "text",
+          "rawText": "430pm",
+          "textValue": "430pm"
+        }
+      ]
+    }
+  ],
+  "surface": {
+    "capabilities": [
+      {
+        "name": "actions.capability.ACCOUNT_LINKING"
+      },
+      {
+        "name": "actions.capability.SCREEN_OUTPUT"
+      },
+      {
+        "name": "actions.capability.WEB_BROWSER"
+      },
+      {
+        "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+      },
+      {
+        "name": "actions.capability.AUDIO_OUTPUT"
+      }
+    ]
+  },
+  "availableSurfaces": [
+    {
+      "capabilities": [
+        {
+          "name": "actions.capability.AUDIO_OUTPUT"
+        },
+        {
+          "name": "actions.capability.SCREEN_OUTPUT"
+        },
+        {
+          "name": "actions.capability.WEB_BROWSER"
+        }
+      ]
+    }
+  ]
+}

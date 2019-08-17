@@ -1,0 +1,33 @@
+{
+  "conversationToken": "{\"data\":{}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "PLACEHOLDER"
+              }
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {
+            "@type": "type.googleapis.com/google.actions.v2.PermissionValueSpec",
+            "permissions": [
+              "NAME",
+              "DEVICE_PRECISE_LOCATION"
+            ],
+            "optContext": "To address you by name"
+          },
+          "intent": "actions.intent.PERMISSION"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}

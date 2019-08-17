@@ -1,0 +1,31 @@
+{
+  "conversationToken": "{\"data\":{}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "PLACEHOLDER"
+              }
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {
+            "dialogSpec": {
+              "requestConfirmationText": "Can you confirm?"
+            },
+            "@type": "type.googleapis.com/google.actions.v2.ConfirmationValueSpec"
+          },
+          "intent": "actions.intent.CONFIRMATION"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}

@@ -1,0 +1,42 @@
+{
+  "conversationToken": "{\"data\":{}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "<speak>Great, we will see you on <say-as interpret-as=\"date\" format=\"dm\">18-8</say-as><say-as interpret-as=\"time\" format=\"hms12\" detail=\"2\">16:30</say-as></speak>"
+              }
+            },
+            {
+              "simpleResponse": {
+                "textToSpeech": "Would you like to try another helper?"
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "Confirmation"
+            },
+            {
+              "title": "Permission"
+            },
+            {
+              "title": "Place"
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {},
+          "intent": "actions.intent.TEXT"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}

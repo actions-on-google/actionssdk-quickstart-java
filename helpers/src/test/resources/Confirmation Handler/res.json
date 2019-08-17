@@ -1,0 +1,37 @@
+{
+  "conversationToken": "{\"data\":{}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Thank you for confirming"
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "Place"
+            },
+            {
+              "title": "DateTime"
+            },
+            {
+              "title": "Permission"
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {},
+          "intent": "actions.intent.TEXT"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}

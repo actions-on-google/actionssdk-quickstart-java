@@ -1,0 +1,35 @@
+{
+  "conversationToken": "{\"data\":{}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "PLACEHOLDER"
+              }
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {
+            "@type": "type.googleapis.com/google.actions.v2.PlaceValueSpec",
+            "dialog_spec": {
+              "extension": {
+                "permissionContext": "To find  a location",
+                "@type": "type.googleapis.com/google.actions.v2.PlaceValueSpec.PlaceDialogSpec",
+                "requestPrompt": "Where would you like to go?"
+              }
+            }
+          },
+          "intent": "actions.intent.PLACE"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}

@@ -1,0 +1,33 @@
+{
+  "conversationToken": "{\"data\":{}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "PLACEHOLDER"
+              }
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {
+            "dialogSpec": {
+              "requestDateText": "What day was that?",
+              "requestDatetimeText": "When would you like to schedule the appointment?",
+              "requestTimeText": "What time works for you?"
+            },
+            "@type": "type.googleapis.com/google.actions.v2.DateTimeValueSpec"
+          },
+          "intent": "actions.intent.DATETIME"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}

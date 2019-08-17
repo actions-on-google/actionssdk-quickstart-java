@@ -1,0 +1,62 @@
+{
+  "user": {
+    "locale": "en-US",
+    "userVerificationStatus": "VERIFIED"
+  },
+  "conversation": {
+    "conversationId": "ABwppHF23f99p33NDkUClq7BQPFlQcT7qfYVpecNP5oKnxWxvY4S_f8rzfX11W085sU6mphVO3RRqVbloEReThYbjg",
+    "type": "NEW"
+  },
+  "inputs": [
+    {
+      "intent": "actions.intent.TEXT",
+      "rawInputs": [
+        {
+          "inputType": "TOUCH",
+          "query": "Permission"
+        }
+      ],
+      "arguments": [
+        {
+          "name": "text",
+          "rawText": "Permission",
+          "textValue": "Permission"
+        }
+      ]
+    }
+  ],
+  "surface": {
+    "capabilities": [
+      {
+        "name": "actions.capability.AUDIO_OUTPUT"
+      },
+      {
+        "name": "actions.capability.WEB_BROWSER"
+      },
+      {
+        "name": "actions.capability.SCREEN_OUTPUT"
+      },
+      {
+        "name": "actions.capability.ACCOUNT_LINKING"
+      },
+      {
+        "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+      }
+    ]
+  },
+  "availableSurfaces": [
+    {
+      "capabilities": [
+        {
+          "name": "actions.capability.SCREEN_OUTPUT"
+        },
+        {
+          "name": "actions.capability.WEB_BROWSER"
+        },
+        {
+          "name": "actions.capability.AUDIO_OUTPUT"
+        }
+      ]
+    }
+  ]
+}
