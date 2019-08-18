@@ -1,0 +1,26 @@
+{
+  "conversationToken": "{\"data\":{}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Hi! Try saying 'exit' or 'cancel'"
+              }
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {},
+          "intent": "actions.intent.TEXT"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}
