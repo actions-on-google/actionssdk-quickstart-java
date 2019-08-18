@@ -1,0 +1,39 @@
+{
+  "conversationToken": "{\"data\":{}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Hi! I can help you understand surface capabilities."
+              }
+            },
+            {
+              "simpleResponse": {
+                "textToSpeech": "What would you like to try?"
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "Current capabilities"
+            },
+            {
+              "title": "Transfer surface"
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {},
+          "intent": "actions.intent.TEXT"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}

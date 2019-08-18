@@ -1,0 +1,45 @@
+{
+  "conversationToken": "{\"data\":{}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Welcome to a screen device!"
+              }
+            },
+            {
+              "basicCard": {
+                "formattedText": "Screen devices support basic cards and other visual responses!",
+                "title": "You're on a screened device!"
+              }
+            },
+            {
+              "simpleResponse": {
+                "textToSpeech": "What else would you like to try?"
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "Current capabilities"
+            },
+            {
+              "title": "Transfer surface"
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {},
+          "intent": "actions.intent.TEXT"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}

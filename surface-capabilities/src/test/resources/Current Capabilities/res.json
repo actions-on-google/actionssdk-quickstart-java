@@ -1,0 +1,39 @@
+{
+  "conversationToken": "{\"data\":{}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Looks like your current device does not have the screen output capability, has the audio output capability, has the media capability, does not have the browser capability, does not have the interactive canvas capability."
+              }
+            },
+            {
+              "simpleResponse": {
+                "textToSpeech": "What else would you like to try?"
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "Current capabilities"
+            },
+            {
+              "title": "Transfer surface"
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {},
+          "intent": "actions.intent.TEXT"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}
