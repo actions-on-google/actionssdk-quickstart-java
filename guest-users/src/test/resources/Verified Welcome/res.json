@@ -1,0 +1,31 @@
+{
+  "conversationToken": "{\"data\":{}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Hey there! I remember your favorite color is blue"
+              }
+            },
+            {
+              "simpleResponse": {
+                "textToSpeech": "Can you give me another color to remember?"
+              }
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {},
+          "intent": "actions.intent.TEXT"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{\"favoriteColor\":\"blue\"}}"
+}
