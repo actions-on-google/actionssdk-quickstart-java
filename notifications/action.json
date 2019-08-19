@@ -1,0 +1,35 @@
+{
+    "actions": [
+      {
+        "description": "Default Welcome Intent",
+        "name": "MAIN",
+        "fulfillment": {
+          "conversationName": "conversation"
+        },
+        "intent": {
+          "name": "actions.intent.MAIN"
+        }
+      },
+      {
+        "description": "Notification intent",
+        "name": "Notification",
+        "fulfillment": {
+          "conversationName": "conversation"
+        },
+        "intent": {
+          "name": "Notification",
+          "trigger": {
+            "queryPatterns": [
+              "Trigger notification intent"
+            ]
+          }
+        }
+      }
+    ],
+    "conversations": {
+      "conversation": {
+        "name": "conversation",
+        "url": "YOUR_ENDPOINT_URL"
+      }
+    }
+  }

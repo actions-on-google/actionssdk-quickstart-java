@@ -1,0 +1,23 @@
+{
+  "conversationToken": "{\"data\":{}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "inputValueData": {
+            "@type": "type.googleapis.com/google.actions.v2.PermissionValueSpec",
+            "permissions": [
+              "UPDATE"
+            ],
+            "updatePermissionValueSpec": {
+              "intent": "Notification"
+            }
+          },
+          "intent": "actions.intent.PERMISSION"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}

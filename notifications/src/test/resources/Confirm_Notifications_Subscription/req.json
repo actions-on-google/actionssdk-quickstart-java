@@ -1,0 +1,74 @@
+{
+  "user": {
+    "permissions": [
+      "UPDATE"
+    ],
+    "locale": "en-US",
+    "userVerificationStatus": "VERIFIED"
+  },
+  "conversation": {
+    "conversationId": "ABwppHEP6OAFZHkSGEiZ5HYM9qrlk8YtIH1DQmJ52cxXELSPvM-kSc_tMJ_5O6ITbgVJlY9i2FIsKWjE_HXLke48",
+    "type": "NEW"
+  },
+  "inputs": [
+    {
+      "intent": "actions.intent.PERMISSION",
+      "rawInputs": [
+        {
+          "inputType": "KEYBOARD",
+          "query": "yes"
+        }
+      ],
+      "arguments": [
+        {
+          "name": "PERMISSION",
+          "boolValue": true,
+          "textValue": "true"
+        },
+        {
+          "name": "text",
+          "rawText": "yes",
+          "textValue": "yes"
+        },
+        {
+          "name": "UPDATES_USER_ID",
+          "textValue": "ABwppHFvBKC-tMYUsUjJkm3YECgZvd6A3sOc7KuQvO4ZdQX3bGLmyoQ41dh4Zmtlzv_kaOKBt1Sf6eRpNbayynrl"
+        }
+      ]
+    }
+  ],
+  "surface": {
+    "capabilities": [
+      {
+        "name": "actions.capability.AUDIO_OUTPUT"
+      },
+      {
+        "name": "actions.capability.WEB_BROWSER"
+      },
+      {
+        "name": "actions.capability.SCREEN_OUTPUT"
+      },
+      {
+        "name": "actions.capability.ACCOUNT_LINKING"
+      },
+      {
+        "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+      }
+    ]
+  },
+  "availableSurfaces": [
+    {
+      "capabilities": [
+        {
+          "name": "actions.capability.AUDIO_OUTPUT"
+        },
+        {
+          "name": "actions.capability.SCREEN_OUTPUT"
+        },
+        {
+          "name": "actions.capability.WEB_BROWSER"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "conversationToken": "{\"data\":{}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Hi! Welcome to Push Notifications!"
+              }
+            },
+            {
+              "simpleResponse": {
+                "textToSpeech": "I can send you push notifications. Would you like that?"
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "Send notifications"
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {},
+          "intent": "actions.intent.TEXT"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}
