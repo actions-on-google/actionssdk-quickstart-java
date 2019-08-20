@@ -1,0 +1,59 @@
+{
+  "user": {
+    "locale": "en-US",
+    "userVerificationStatus": "VERIFIED"
+  },
+  "conversation": {
+    "conversationId": "ABwppHEVDuKUPjdZ4Ud-F2yBXN5ssRg2funUp59hSHQheAi-B5Y3EzehAKFtVwMkduqMRWscUp77ScrDjYnYxISqAM-qOXuXEuCw",
+    "type": "ACTIVE",
+    "conversationToken": "{\"data\":{}}"
+  },
+  "inputs": [
+    {
+      "intent": "actions.intent.NO_INPUT",
+      "rawInputs": [
+        {
+          "inputType": "VOICE"
+        }
+      ],
+      "arguments": [
+        {
+          "name": "REPROMPT_COUNT",
+          "intValue": "1"
+        },
+        {
+          "name": "IS_FINAL_REPROMPT",
+          "boolValue": false
+        }
+      ]
+    }
+  ],
+  "surface": {
+    "capabilities": [
+      {
+        "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+      },
+      {
+        "name": "actions.capability.ACCOUNT_LINKING"
+      },
+      {
+        "name": "actions.capability.AUDIO_OUTPUT"
+      }
+    ]
+  },
+  "availableSurfaces": [
+    {
+      "capabilities": [
+        {
+          "name": "actions.capability.AUDIO_OUTPUT"
+        },
+        {
+          "name": "actions.capability.SCREEN_OUTPUT"
+        },
+        {
+          "name": "actions.capability.WEB_BROWSER"
+        }
+      ]
+    }
+  ]
+}
