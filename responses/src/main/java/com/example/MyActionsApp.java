@@ -18,8 +18,8 @@ package com.example;
 
 import com.google.actions.api.ActionRequest;
 import com.google.actions.api.ActionResponse;
-import com.google.actions.api.Capability;
 import com.google.actions.api.ActionsSdkApp;
+import com.google.actions.api.Capability;
 import com.google.actions.api.ForIntent;
 import com.google.actions.api.response.ResponseBuilder;
 import com.google.actions.api.response.helperintent.SelectionCarousel;
@@ -51,16 +51,17 @@ public class MyActionsApp extends ActionsSdkApp {
     ResponseBuilder responseBuilder = getResponseBuilder(request);
     responseBuilder.add("Hi! I can show you different types of responses.");
     responseBuilder.add("Which would you like to see?");
-    responseBuilder.addSuggestions(new String[] {
-      "Basic Card",
-      "List",
-      "Carousel",
-      "Media Response",
-      "Suggestion Chips",
-      "Browsing Carousel",
-      "Simple Response",
-      "SSML",
-    });
+    responseBuilder.addSuggestions(
+        new String[] {
+          "Basic Card",
+          "List",
+          "Carousel",
+          "Media Response",
+          "Suggestion Chips",
+          "Browsing Carousel",
+          "Simple Response",
+          "SSML",
+        });
     return responseBuilder.build();
   }
 
@@ -104,7 +105,7 @@ public class MyActionsApp extends ActionsSdkApp {
                 "Here's an example of a simple response. "
                     + "Which type of response would you like to see next?")
             .setDisplayText(
-                "Here's a simple response. " + "Which response would you like to see next?"));
+                "Here's a simple response. Which response would you like to see next?"));
     return responseBuilder.build();
     // [END asdk_java_simple_response]
   }
