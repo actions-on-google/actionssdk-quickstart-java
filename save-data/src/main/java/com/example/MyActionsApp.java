@@ -83,8 +83,13 @@ public class MyActionsApp extends ActionsSdkApp {
     // [START save_data_across_convs_asdk]
     ResponseBuilder responseBuilder = getResponseBuilder(request);
     Integer sum = ((Double) request.getConversationData().get("sum")).intValue();
-    responseBuilder.getUserStorage().put("sum", sum);
-    responseBuilder.add("Alright, I'll store that for next time. See you then.");
+    String verificationStatus = request.getUser().getUserVerificationStatus();
+    if (verificationStatus.equals("VERIFIED")) {
+      responseBuilder.getUserStorage().put("sum", sum);
+      responseBuilder.add("Alright, I'll store that for next time. See you then.");
+    } else {
+      responseBuilder.add("I can't save that right now, but we can add new numbers next time!");
+    }
     responseBuilder.endConversation();
     return responseBuilder.build();
     // [END save_data_across_convs_asdk]
