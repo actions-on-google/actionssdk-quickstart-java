@@ -3,7 +3,7 @@
 This repo contains samples demonstrating the core features of Actions on Google
 when building with Actions SDK and using our [Java/Kotlin Client Library](https://github.com/actions-on-google/actions-on-google-java).
 Code snippets from these samples are included throughout the Actions on Google
-[documentation](https://developers.google.com/actions).
+[documentation](https://developers.google.com/assistant).
 
 ## Setup Instructions
 The commands shown below can be run from any of the directories to deploy
@@ -14,7 +14,7 @@ and run the sample.
 1. [Gradle with App Engine Plugin](https://cloud.google.com/appengine/docs/flexible/java/using-gradle)
     + Install and update the App Engine component,`gcloud components install app-engine-java`
     + Update other components, `gcloud components update`
-1.  [Install the gactions CLI](https://developers.google.com/actions/tools/gactions-cli)
+1.  [Install the gactions CLI](https://developers.google.com/assistant/tools/gactions-cli)
     + You may need to grant execute permission, ‘chmod +x ./gactions’
 
 ### Configuration
@@ -22,7 +22,7 @@ and run the sample.
 
 1. From the [Actions on Google Console](https://console.actions.google.com/), New project (this will become your *Project ID*) > **Create project**.
 1. Scroll down > under **More options** select **Actions SDK** > keep **Use Actions SDK to add Actions** modal open
-1. [Install the gactions CLI](https://developers.google.com/actions/tools/gactions-cli) if you haven't already.
+1. [Install the gactions CLI](https://developers.google.com/assistant/tools/gactions-cli) if you haven't already.
 
 #### App Engine Deployment & Webhook Configuration
 When a new project is created using the Actions Console, it also creates a Google Cloud project in the background.
@@ -44,10 +44,10 @@ When a new project is created using the Actions Console, it also creates a Googl
 + You can also use the Actions on Google Console simulator to test most features and preview on-device behavior.
 
 ### References & Issues
-+ Questions? Go to [StackOverflow](https://stackoverflow.com/questions/tagged/actions-on-google), [Assistant Developer Community on Reddit](https://www.reddit.com/r/GoogleAssistantDev/) or [Support](https://developers.google.com/actions/support/).
++ Questions? Go to [StackOverflow](https://stackoverflow.com/questions/tagged/actions-on-google), [Assistant Developer Community on Reddit](https://www.reddit.com/r/GoogleAssistantDev/) or [Support](https://developers.google.com/assistant/support).
 + For bugs, please report an issue on Github.
-+ Actions on Google [Documentation](https://developers.google.com/actions/extending-the-assistant).
-+ Getting started with [Actions SDK Guide](https://developers.google.com/actions/sdk/).
++ Actions on Google [Documentation](https://developers.google.com/assistant).
++ Getting started with [Actions SDK Guide](https://developers.google.com/assistant/actions/actions-sdk/).
 + More info about [Gradle & the App Engine Plugin](https://cloud.google.com/appengine/docs/flexible/java/using-gradle).
 + More info about deploying [Java apps with App Engine](https://cloud.google.com/appengine/docs/standard/java/quickstart).
 
