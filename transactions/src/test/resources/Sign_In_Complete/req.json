@@ -1,0 +1,63 @@
+{
+  "user": {
+    "locale": "en-US",
+    "lastSeen": "2019-11-11T23:55:52Z",
+    "userVerificationStatus": "VERIFIED"
+  },
+  "conversation": {
+    "conversationId": "ABwppHGFwStZlYaQ9YT8rg9t_idVsxZrku1pUDrEbGSJmSUMatVdPwPEEQSCe1IwIBoN4sS4Weyn9pmgetEgbsWgw3JSvQmw",
+    "type": "ACTIVE",
+    "conversationToken": "{\"data\":{\"paymentType\":\"merchant_payment\"}}"
+  },
+  "inputs": [
+    {
+      "intent": "actions.intent.SIGN_IN",
+      "rawInputs": [
+        {}
+      ],
+      "arguments": [
+        {
+          "name": "SIGN_IN",
+          "extension": {
+            "@type": "type.googleapis.com/google.actions.v2.SignInValue",
+            "status": "OK"
+          }
+        },
+        {
+          "name": "text"
+        }
+      ]
+    }
+  ],
+  "surface": {
+    "capabilities": [
+      {
+        "name": "actions.capability.AUDIO_OUTPUT"
+      },
+      {
+        "name": "actions.capability.ACCOUNT_LINKING"
+      },
+      {
+        "name": "actions.capability.SCREEN_OUTPUT"
+      },
+      {
+        "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+      }
+    ]
+  },
+  "availableSurfaces": [
+    {
+      "capabilities": [
+        {
+          "name": "actions.capability.SCREEN_OUTPUT"
+        },
+        {
+          "name": "actions.capability.AUDIO_OUTPUT"
+        },
+        {
+          "name": "actions.capability.WEB_BROWSER"
+        }
+      ]
+    }
+  ]
+}

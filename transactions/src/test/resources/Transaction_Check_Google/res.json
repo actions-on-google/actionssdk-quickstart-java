@@ -1,0 +1,31 @@
+{
+  "conversationToken": "{\"data\":{\"paymentType\":\"google_payment\"}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Looks like you're good to go! Next I'll need your delivery address. Try saying \"get delivery address\"."
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "get delivery address"
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {},
+          "intent": "actions.intent.TEXT"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}

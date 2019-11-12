@@ -1,0 +1,61 @@
+{
+  "user": {
+    "locale": "en-US",
+    "lastSeen": "2019-11-11T23:56:40Z",
+    "userVerificationStatus": "VERIFIED"
+  },
+  "conversation": {
+    "conversationId": "ABwppHGFwStZlYaQ9YT8rg9t_idVsxZrku1pUDrEbGSJmSUMatVdPwPEEQSCe1IwIBoN4sS4Weyn9pmgetEgbsWgw3JSvQmw",
+    "type": "ACTIVE",
+    "conversationToken": "{\"data\":{\"paymentType\":\"merchant_payment\"}}"
+  },
+  "inputs": [
+    {
+      "intent": "actions.intent.TEXT",
+      "rawInputs": [
+        {
+          "inputType": "VOICE",
+          "query": "get delivery address"
+        }
+      ],
+      "arguments": [
+        {
+          "name": "text",
+          "rawText": "get delivery address",
+          "textValue": "get delivery address"
+        }
+      ]
+    }
+  ],
+  "surface": {
+    "capabilities": [
+      {
+        "name": "actions.capability.SCREEN_OUTPUT"
+      },
+      {
+        "name": "actions.capability.ACCOUNT_LINKING"
+      },
+      {
+        "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+      },
+      {
+        "name": "actions.capability.AUDIO_OUTPUT"
+      }
+    ]
+  },
+  "availableSurfaces": [
+    {
+      "capabilities": [
+        {
+          "name": "actions.capability.AUDIO_OUTPUT"
+        },
+        {
+          "name": "actions.capability.WEB_BROWSER"
+        },
+        {
+          "name": "actions.capability.SCREEN_OUTPUT"
+        }
+      ]
+    }
+  ]
+}

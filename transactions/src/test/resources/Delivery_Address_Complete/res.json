@@ -1,0 +1,31 @@
+{
+  "conversationToken": "{\"data\":{\"paymentType\":\"merchant_payment\",\"location\":\"{\\\"city\\\":\\\"MOUNTAIN VIEW\\\",\\\"coordinates\\\":{\\\"latitude\\\":37.421578499999995,\\\"longitude\\\":-122.0837816},\\\"phoneNumber\\\":\\\"+1 123-456-7890\\\",\\\"postalAddress\\\":{\\\"addressLines\\\":[\\\"1600 AMPHITHEATRE PKWY\\\"],\\\"administrativeArea\\\":\\\"CA\\\",\\\"locality\\\":\\\"MOUNTAIN VIEW\\\",\\\"postalCode\\\":\\\"94043-1351\\\",\\\"recipients\\\":[\\\"John Doe\\\"],\\\"regionCode\\\":\\\"US\\\"},\\\"zipCode\\\":\\\"94043-1351\\\"}\"}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Great, got your address! Now say \"confirm transaction\"."
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "confirm transaction"
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {},
+          "intent": "actions.intent.TEXT"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}

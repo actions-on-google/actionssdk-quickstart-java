@@ -1,0 +1,89 @@
+{
+  "user": {
+    "locale": "en-US",
+    "lastSeen": "2019-11-11T23:57:20Z",
+    "userVerificationStatus": "VERIFIED"
+  },
+  "conversation": {
+    "conversationId": "ABwppHGFwStZlYaQ9YT8rg9t_idVsxZrku1pUDrEbGSJmSUMatVdPwPEEQSCe1IwIBoN4sS4Weyn9pmgetEgbsWgw3JSvQmw",
+    "type": "ACTIVE",
+    "conversationToken": "{\"data\":{\"paymentType\":\"merchant_payment\"}}"
+  },
+  "inputs": [
+    {
+      "intent": "actions.intent.DELIVERY_ADDRESS",
+      "rawInputs": [
+        {
+          "inputType": "VOICE",
+          "query": "1600 AMPHITHEATRE PKWY"
+        }
+      ],
+      "arguments": [
+        {
+          "name": "DELIVERY_ADDRESS_VALUE",
+          "extension": {
+            "@type": "type.googleapis.com/google.actions.v2.DeliveryAddressValue",
+            "userDecision": "ACCEPTED",
+            "location": {
+              "coordinates": {
+                "latitude": 37.421578499999995,
+                "longitude": -122.0837816
+              },
+              "zipCode": "94043-1351",
+              "city": "MOUNTAIN VIEW",
+              "postalAddress": {
+                "regionCode": "US",
+                "postalCode": "94043-1351",
+                "administrativeArea": "CA",
+                "locality": "MOUNTAIN VIEW",
+                "addressLines": [
+                  "1600 AMPHITHEATRE PKWY"
+                ],
+                "recipients": [
+                  "John Doe"
+                ]
+              },
+              "phoneNumber": "+1 123-456-7890"
+            }
+          }
+        },
+        {
+          "name": "text",
+          "rawText": "1600 AMPHITHEATRE PKWY",
+          "textValue": "1600 AMPHITHEATRE PKWY"
+        }
+      ]
+    }
+  ],
+  "surface": {
+    "capabilities": [
+      {
+        "name": "actions.capability.SCREEN_OUTPUT"
+      },
+      {
+        "name": "actions.capability.AUDIO_OUTPUT"
+      },
+      {
+        "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+      },
+      {
+        "name": "actions.capability.ACCOUNT_LINKING"
+      }
+    ]
+  },
+  "availableSurfaces": [
+    {
+      "capabilities": [
+        {
+          "name": "actions.capability.AUDIO_OUTPUT"
+        },
+        {
+          "name": "actions.capability.WEB_BROWSER"
+        },
+        {
+          "name": "actions.capability.SCREEN_OUTPUT"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "conversationToken": "{\"data\":{\"paymentType\":\"merchant_payment\"}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "inputValueData": {
+            "@type": "type.googleapis.com/google.actions.v2.DeliveryAddressValueSpec",
+            "addressOptions": {
+              "reason": "To know where to send the order"
+            }
+          },
+          "intent": "actions.intent.DELIVERY_ADDRESS"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}

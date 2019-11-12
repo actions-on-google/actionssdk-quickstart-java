@@ -1,0 +1,18 @@
+{
+  "conversationToken": "{\"data\":{\"paymentType\":\"merchant_payment\"}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "inputValueData": {
+            "@type": "type.googleapis.com/google.actions.v2.SignInValueSpec",
+            "optContext": "To get your account details"
+          },
+          "intent": "actions.intent.SIGN_IN"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}

@@ -1,0 +1,278 @@
+{
+  "conversationToken": "{\"data\":{\"paymentType\":\"merchant_payment\",\"location\":{\"coordinates\":{\"latitude\":37.421578499999995,\"longitude\":-122.0837816},\"zipCode\":\"94043-1351\",\"city\":\"MOUNTAIN VIEW\",\"postalAddress\":{\"regionCode\":\"US\",\"postalCode\":\"94043-1351\",\"administrativeArea\":\"CA\",\"locality\":\"MOUNTAIN VIEW\",\"addressLines\":[\"1600 AMPHITHEATRE PKWY\"],\"recipients\":[\"John Doe\"]},\"phoneNumber\":\"+1 123-456-7890\"},\"latestOrderId\":\"ORDER_ID\"}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Transaction completed! Your order ORDER_ID is all set!"
+              }
+            },
+            {
+              "structuredResponse": {
+                "orderUpdateV3": {
+                  "order": {
+                    "buyerInfo": {
+                      "displayName": "Jane Doe",
+                      "email": "janedoe@example.com",
+                      "firstName": "Jane",
+                      "lastName": "Doe"
+                    },
+                    "contents": {
+                      "lineItems": [
+                        {
+                          "description": "A four cheese pizza.",
+                          "id": "LINE_ITEM_ID",
+                          "name": "Pizza",
+                          "notes": [
+                            "Extra cheese."
+                          ],
+                          "priceAttributes": [
+                            {
+                              "amount": {
+                                "amountInMicros": 8990000,
+                                "currencyCode": "USD"
+                              },
+                              "name": "Item Price",
+                              "state": "ACTUAL",
+                              "taxIncluded": true,
+                              "type": "REGULAR"
+                            },
+                            {
+                              "amount": {
+                                "amountInMicros": 9990000,
+                                "currencyCode": "USD"
+                              },
+                              "name": "Total Price",
+                              "state": "ACTUAL",
+                              "taxIncluded": true,
+                              "type": "TOTAL"
+                            }
+                          ],
+                          "purchase": {
+                            "itemOptions": [
+                              {
+                                "id": "ITEM_OPTION_ID",
+                                "name": "Pepperoni",
+                                "note": "Extra pepperoni",
+                                "prices": [
+                                  {
+                                    "amount": {
+                                      "amountInMicros": 1000000,
+                                      "currencyCode": "USD"
+                                    },
+                                    "name": "Item Price",
+                                    "state": "ACTUAL",
+                                    "taxIncluded": true,
+                                    "type": "REGULAR"
+                                  },
+                                  {
+                                    "amount": {
+                                      "amountInMicros": 1000000,
+                                      "currencyCode": "USD"
+                                    },
+                                    "name": "Total Price",
+                                    "state": "ACTUAL",
+                                    "taxIncluded": true,
+                                    "type": "TOTAL"
+                                  }
+                                ],
+                                "quantity": 1
+                              }
+                            ],
+                            "quantity": 1,
+                            "unitMeasure": {
+                              "measure": 1,
+                              "unit": "POUND"
+                            }
+                          },
+                          "vertical": {
+                            "@type": "type.googleapis.com/google.actions.orders.v3.verticals.purchase.PurchaseItemExtension",
+                            "quantity": {
+                              "value": "1"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "createTime": "2019-09-24T18:00:00.877Z",
+                    "followUpActions": [
+                      {
+                        "openUrlAction": {
+                          "url": "http://example.com"
+                        },
+                        "title": "View details",
+                        "type": "VIEW_DETAILS"
+                      },
+                      {
+                        "openUrlAction": {
+                          "url": "tel:+16501112222"
+                        },
+                        "title": "Call us",
+                        "type": "CALL"
+                      },
+                      {
+                        "openUrlAction": {
+                          "url": "mailto:person@example.com"
+                        },
+                        "title": "Email us",
+                        "type": "EMAIL"
+                      }
+                    ],
+                    "googleOrderId": "05528125187071048269",
+                    "lastUpdateTime": "2019-09-24T19:00:00.877Z",
+                    "merchantOrderId": "ORDER_ID",
+                    "note": "Sale event",
+                    "paymentData": {
+                      "paymentInfo": {
+                        "paymentMethodDisplayInfo": {
+                          "paymentMethodDisplayName": "VISA **** 1234",
+                          "paymentType": "PAYMENT_CARD"
+                        },
+                        "paymentMethodProvenance": "PAYMENT_METHOD_PROVENANCE_MERCHANT"
+                      },
+                      "paymentResult": {
+                        "merchantPaymentMethodId": "12345678"
+                      }
+                    },
+                    "priceAttributes": [
+                      {
+                        "amount": {
+                          "amountInMicros": 9990000,
+                          "currencyCode": "USD"
+                        },
+                        "name": "Subtotal",
+                        "state": "ESTIMATE",
+                        "taxIncluded": true,
+                        "type": "SUBTOTAL"
+                      },
+                      {
+                        "amount": {
+                          "amountInMicros": 2000000,
+                          "currencyCode": "USD"
+                        },
+                        "name": "Delivery",
+                        "state": "ACTUAL",
+                        "taxIncluded": true,
+                        "type": "DELIVERY"
+                      },
+                      {
+                        "amount": {
+                          "amountInMicros": 3780000,
+                          "currencyCode": "USD"
+                        },
+                        "name": "Tax",
+                        "state": "ESTIMATE",
+                        "taxIncluded": true,
+                        "type": "TAX"
+                      },
+                      {
+                        "amount": {
+                          "amountInMicros": 15770000,
+                          "currencyCode": "USD"
+                        },
+                        "name": "Total Price",
+                        "state": "ESTIMATE",
+                        "taxIncluded": true,
+                        "type": "TOTAL"
+                      }
+                    ],
+                    "promotions": [
+                      {
+                        "coupon": "COUPON_CODE"
+                      }
+                    ],
+                    "purchase": {
+                      "fulfillmentInfo": {
+                        "expectedFulfillmentTime": {
+                          "timeIso8601": "2019-09-25T18:00:00.877Z"
+                        },
+                        "fulfillmentContact": {
+                          "displayName": "John Johnson",
+                          "email": "johnjohnson@gmail.com",
+                          "firstName": "John",
+                          "lastName": "Johnson"
+                        },
+                        "fulfillmentType": "DELIVERY",
+                        "id": "FULFILLMENT_SERVICE_ID",
+                        "location": {
+                          "city": "MOUNTAIN VIEW",
+                          "coordinates": {
+                            "latitude": 37.421578499999995,
+                            "longitude": -122.0837816
+                          },
+                          "phoneNumber": "+1 123-456-7890",
+                          "postalAddress": {
+                            "addressLines": [
+                              "1600 AMPHITHEATRE PKWY"
+                            ],
+                            "administrativeArea": "CA",
+                            "locality": "MOUNTAIN VIEW",
+                            "postalCode": "94043-1351",
+                            "recipients": [
+                              "John Doe"
+                            ],
+                            "regionCode": "US"
+                          },
+                          "zipCode": "94043-1351"
+                        },
+                        "price": {
+                          "amount": {
+                            "amountInMicros": 2000000,
+                            "currencyCode": "USD"
+                          },
+                          "name": "Delivery Price",
+                          "state": "ACTUAL",
+                          "taxIncluded": true,
+                          "type": "REGULAR"
+                        }
+                      },
+                      "purchaseLocationType": "ONLINE_PURCHASE",
+                      "returnsInfo": {
+                        "daysToReturn": 1,
+                        "policyUrl": "http://www.example.com"
+                      },
+                      "status": "CONFIRMED",
+                      "type": "FOOD",
+                      "userVisibleStatusLabel": "Order confirmed"
+                    },
+                    "termsOfServiceUrl": "http://www.example.com",
+                    "transactionMerchant": {
+                      "id": "http://www.example.com",
+                      "name": "Example Merchant"
+                    },
+                    "userVisibleOrderId": "ORDER_ID",
+                    "vertical": {
+                      "@type": "type.googleapis.com/google.actions.orders.v3.verticals.purchase.PurchaseOrderExtension",
+                      "status": "CREATED",
+                      "type": "FOOD",
+                      "purchaseLocationType": "ONLINE_PURCHASE",
+                      "userVisibleStatusLabel": "CREATED"
+                    }
+                  },
+                  "reason": "Reason string",
+                  "type": "SNAPSHOT"
+                }
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "send order update"
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {},
+          "intent": "actions.intent.TEXT"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}

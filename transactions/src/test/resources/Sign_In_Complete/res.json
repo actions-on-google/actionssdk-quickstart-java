@@ -1,0 +1,31 @@
+{
+  "conversationToken": "{\"data\":{\"paymentType\":\"merchant_payment\"}}",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "You must meet all the requirements necessary to make a transaction. Try saying \"check transaction requirements\"."
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "check requirements"
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "inputValueData": {},
+          "intent": "actions.intent.TEXT"
+        }
+      ]
+    }
+  ],
+  "userStorage": "{\"data\":{}}"
+}

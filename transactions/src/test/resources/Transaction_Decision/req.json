@@ -1,0 +1,61 @@
+{
+  "user": {
+    "locale": "en-US",
+    "lastSeen": "2019-11-11T23:57:20Z",
+    "userVerificationStatus": "VERIFIED"
+  },
+  "conversation": {
+    "conversationId": "ABwppHGFwStZlYaQ9YT8rg9t_idVsxZrku1pUDrEbGSJmSUMatVdPwPEEQSCe1IwIBoN4sS4Weyn9pmgetEgbsWgw3JSvQmw",
+    "type": "ACTIVE",
+    "conversationToken": "{\"data\":{\"paymentType\":\"merchant_payment\",\\\"location\\\":\\\"{\\\\\\\"city\\\\\\\":\\\\\\\"MOUNTAIN VIEW\\\\\\\",\\\\\\\"coordinates\\\\\\\":{\\\\\\\"latitude\\\\\\\":37.432524,\\\\\\\"longitude\\\\\\\":-122.098545},\\\\\\\"phoneNumber\\\\\\\":\\\\\\\"+1 123-456-7890\\\\\\\",\\\\\\\"postalAddress\\\\\\\":{\\\\\\\"addressLines\\\\\\\":[\\\\\\\"1600 AMPHITHEATRE PKWY\\\\\\\"],\\\\\\\"administrativeArea\\\\\\\":\\\\\\\"CA\\\\\\\",\\\\\\\"locality\\\\\\\":\\\\\\\"MOUNTAIN VIEW\\\\\\\",\\\\\\\"postalCode\\\\\\\":\\\\\\\"94043-1351\\\\\\\",\\\\\\\"recipients\\\\\\\":[\\\\\\\"John Doe\\\\\\\"],\\\\\\\"regionCode\\\\\\\":\\\\\\\"US\\\\\\\"},\\\\\\\"zipCode\\\\\\\":\\\\\\\"94043-1351\\\\\\\"}\\\"}"
+  },
+  "inputs": [
+    {
+      "intent": "actions.intent.TEXT",
+      "rawInputs": [
+        {
+          "inputType": "VOICE",
+          "query": "confirm transaction"
+        }
+      ],
+      "arguments": [
+        {
+          "name": "text",
+          "rawText": "confirm transaction",
+          "textValue": "confirm transaction"
+        }
+      ]
+    }
+  ],
+  "surface": {
+    "capabilities": [
+      {
+        "name": "actions.capability.SCREEN_OUTPUT"
+      },
+      {
+        "name": "actions.capability.ACCOUNT_LINKING"
+      },
+      {
+        "name": "actions.capability.AUDIO_OUTPUT"
+      },
+      {
+        "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+      }
+    ]
+  },
+  "availableSurfaces": [
+    {
+      "capabilities": [
+        {
+          "name": "actions.capability.SCREEN_OUTPUT"
+        },
+        {
+          "name": "actions.capability.AUDIO_OUTPUT"
+        },
+        {
+          "name": "actions.capability.WEB_BROWSER"
+        }
+      ]
+    }
+  ]
+}
