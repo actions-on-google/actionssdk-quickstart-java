@@ -1,5 +1,8 @@
 # Actions on Google: Actions SDK Docs Samples (Java)
 
+*:warning: Warning: Conversational Actions will be deprecated on June 13, 2023. For more information, 
+see [Conversational Actions Sunset](https://goo.gle/ca-sunset).*
+
 :warning: These code samples were built using the legacy Actions SDK. We now recommend using [Actions Builder or the new Actions SDK](https://developers.google.com/assistant/conversational/overview) to develop, test, and deploy Conversational Actions.
 
 This repo contains samples demonstrating the core features of Actions on Google
